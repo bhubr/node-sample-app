@@ -10,4 +10,11 @@ describe("test home endpoint", () => {
       .expect(200);
     assert.deepEqual(res.body, { message: 'Hello World!' });
   });
+
+  it("receives 'Hello Universe'", async () => {
+    const res = await request(app)
+      .get('/api/hello?name=Universe')
+      .expect(200);
+    assert.deepEqual(res.body, { message: 'Hello Universe!' });
+  });
 })
