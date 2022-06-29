@@ -3,7 +3,7 @@
 
 # build and publish the docker image
 docker login -u $env:USERNAME -p $env:PASSWORD
-docker build -f docker/Dockerfile -t $env:USERNAME/node-sample-app:latest .
+docker build -t $env:USERNAME/node-sample-app:latest .
 docker push $env:USERNAME/node-sample-app:latest
 
 # remove images from local cache
