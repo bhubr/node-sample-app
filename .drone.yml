@@ -11,7 +11,7 @@ trigger:
 
 steps:
 - name: backend
-  image: node
+  image: node:16-alpine
   commands:
   - npm install
   - npm test
