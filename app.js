@@ -7,4 +7,8 @@ app.get('/api/hello', (req, res) => {
   res.send({ message: `Hello ${name}!` });
 });
 
+app.get('/api/ip', (req, res) => {
+  res.send({ message: `Your IP is ${req.ip}!` });
+});
+
 module.exports = app;
