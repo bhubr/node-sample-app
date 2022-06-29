@@ -59,7 +59,7 @@ steps:
 #     event: [ tag ]
 
 depends_on:
-- linux
+- node-sample-app
 
 trigger:
   ref:
