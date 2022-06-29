@@ -6,3 +6,4 @@ Just for the sake of testing CI tools.
 * Drone CI
 
 Trigger build
+Trigger build
