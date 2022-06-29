@@ -4,3 +4,5 @@ Just for the sake of testing CI tools.
 
 * Gitea
 * Drone CI
+
+Trigger build
